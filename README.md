@@ -1,3 +1,6 @@
+---
+permalink: /index.md
+---
 # HTML
 - [connect](connect.html)
   手风琴效果的connect
