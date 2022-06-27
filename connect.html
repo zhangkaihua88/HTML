@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Connect with me</title>
+        <link rel="stylesheet" href="connect.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+    </head>
+    <body>
+        <script type="text/javascript">
+            function connect2me(type){
+                let connectMode = {
+                    "site": "https://www.zkhweb.top",
+                    "github": "https://github.com/zhangkaihua88",
+                    "email": "mailto:zhangkaihua@buaa.edu.cn",
+                    "bilibili": "https://space.bilibili.com/37153003",
+                };
+                window.open(connectMode[type]);
+            }
+        </script>
+        <div class="connect-wrapper">
+            <div class="connect-button site" onclick="connect2me('site')">
+                <div class="connect-icon">
+                    <i class="ri-global-line"></i>
+                </div>
+                <span>Blog</span>
+            </div>
+            <div class="connect-button github" onclick="connect2me('github')">
+                <div class="connect-icon">
+                    <i class="ri-github-line"></i>
+                </div>
+                <span>GitHub</span>
+            </div>
+            <div class="connect-button bilibili" onclick="connect2me('bilibili')">
+                <div class="connect-icon">
+                    <i class="ri-bilibili-line"></i>
+                </div>
+                <span>BiliBili</span>
+            </div>
+            <div class="connect-button email" onclick="connect2me('email')">
+                <div class="connect-icon">
+                    <i class="ri-mail-line"></i>
+                </div>
+                <span>E-Mail</span>
+            </div>
+        </div>
+    </body>
+</html>

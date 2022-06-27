@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 94%);
+}
+
+.connect-wrapper .connect-button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+}
+
+.connect-wrapper .connect-button .connect-icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+    vertical-align: middle;
+}
+
+.connect-wrapper .connect-button .connect-icon i {
+    font-size: 30px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+    color: #000;
+}
+
+.connect-wrapper .connect-button span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+    vertical-align: middle;
+}
+
+@media (any-hover:hover) {
+
+    /* 悬停效果 */
+    .connect-wrapper .connect-button:hover {
+        width: 200px;
+    }
+
+    .connect-wrapper .connect-button:hover .connect-icon i {
+        color: #fff;
+    }
+
+
+    .github:hover .connect-icon {
+        background: #181717;
+    }
+
+    .github:hover span {
+        color: #181717;
+    }
+
+
+    .email:hover .connect-icon {
+        background: #005FF9;
+    }
+
+    .email:hover span {
+        color: #005FF9;
+    }
+
+    .bilibili:hover .connect-icon {
+        background: #00A1D6;
+    }
+
+    .bilibili:hover span {
+        color: #00A1D6;
+    }
+
+    .site:hover .connect-icon {
+        background: #0070ff;
+    }
+
+    .site:hover span {
+        color: #0070ff;
+    }
+}
