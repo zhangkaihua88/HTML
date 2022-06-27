@@ -1,1 +1,3 @@
-[MY-LINK](README.md)
+---
+permalink: /readme.md
+---
