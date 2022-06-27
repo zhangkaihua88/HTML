@@ -1,3 +1,3 @@
 ---
-permalink: /README.md
+permalink: README.md
 ---
